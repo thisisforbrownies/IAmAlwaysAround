@@ -1,0 +1,75 @@
+/* style.css */
+
+@font-face {
+  font-family: "King Of Thieves";
+  src: url("kingofthieves.ttf");
+}
+body{
+  text-align: center;
+  margin: 0;
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-image: url("https://m.media-amazon.com/images/M/MV5BMzlkYTI3MWItMjU2NS00MjIzLTg2MzAtZDNiODQzMjBhMmM3XkEyXkFqcGdeQTNwaW5nZXN0._V1_.jpg");
+  width: 100%;
+  height: 100%;
+  background-size :cover;
+  filter :blur(4px); 
+}
+
+h1 {
+  font-family: "King Of Thieves";
+  font-size: 90px;
+  color: #ffc905;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow:  4px 4px #3b2166;
+}
+
+p {
+  font-family: "King Of Thieves";
+  color: #ffc905;
+  font-size: 38px;
+  
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  text-shadow:  2px 2px #3b2166;
+}
+
+input {
+
+  font-family: "King Of Thieves";
+  font-size: 32px;
+  font-weight: bold;
+  width: 360px;
+  height: 65px;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+  margin-left: auto; /* center input box horizontally */
+  margin-right: auto; /* center input box horizontally */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+button {
+  font-family: "King Of Thieves";
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #ffc905;
+  color: #3b2166;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 60px;
+  width: 145px;
+}
